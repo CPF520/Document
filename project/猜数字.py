@@ -15,7 +15,7 @@ import random
 C = random.randint(0, 100)
 print(C)
 gold = 5000
-print("您的初始金币为：5000" ,end=",")
+print("您的初始金币为：5000" ,end="")
 print("猜对加3000，猜错减500，您共有10次机会")
 i = 1
 while i <= 10:
